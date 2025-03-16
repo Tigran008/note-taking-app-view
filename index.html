@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link rel="icon" type="image/x-icon" href="./images/logo.png">
+        <link rel="stylesheet" href="./styles/style.css" />
+        <title>Notes</title>
+    </head>
+    <body>
+        <aside>
+            <div class="logo">
+                <img
+                    src="./images/logo.png"
+                    alt="logo"
+                />
+                <p>Notes App</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><i class="fas fa-home"></i> Overview</li>
+                    <li><i class="fas fa-tasks"></i> Tasks</li>
+                    <li><i class="fas fa-file-alt"></i> Documents</li>
+                    <li class="active">
+                        <i class="fas fa-sticky-note"></i> Notes
+                    </li>
+                    <li><i class="fas fa-chart-bar"></i> Output</li>
+                    <li><i class="fas fa-headset"></i> Support</li>
+                </ul>
+            </nav>
+
+            <hr />
+
+            <div class="categories">
+                <div>
+                    <div class="category-color-circles category-projects"></div>
+                    <p>Projects</p>
+                </div>
+                <div>
+                    <div class="category-color-circles category-business"></div>
+                    <p>Business</p>
+                </div>
+                <div>
+                    <div class="category-color-circles category-personal"></div>
+                    <p>Personal</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-plus"></i>
+                    <p>Add new</p>
+                </div>
+            </div>
+
+            <hr />
+
+            <div class="footer">
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+
+                <div class="copyright">
+                    <p>&copy; 2025 All rights reserved</p>
+                </div>
+            </div>
+        </aside>
+
+        <header>
+            <div class="hamburger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" />
+            </div>
+
+            <div class="profile">
+                <div class="profile-photo"></div>
+                <p>Hello, Tigran!</p>
+                <i class="fa-regular fa-bell"></i>
+            </div>
+        </header>
+
+        <main>
+            <div class="filters">
+                <div class="categories">
+                    <button class="active">All</button>
+                    <button>Projects</button>
+                    <button>Business</button>
+                    <button>Personal</button>
+                </div>
+
+                <div class="add-note">
+                    <i class="fa-solid fa-circle-plus"></i>
+                    <p>Add new note</p>
+                </div>
+            </div>
+
+            <div class="notes">
+                <div class="card">
+                    <p class="date">23 June, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <p class="description">
+                        Being the savage's bowsman, that is, the person who
+                        pulled the only one bow-oar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="date">20 June, 2017</p>
+                    <h3 class="title"><b>Being the savage's bowsman</b></h3>
+                    <p class="description">
+                        That is, the person who pulled the only one bow-oar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="date">15 June, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <ul>
+                        <li>Being the bowsman</li>
+                        <li>The person who pulled the bow-oar</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <p class="date">10 June, 2017</p>
+                    <h3 class="title">New workplace</h3>
+                    <img
+                        src="./images/note-image1.png"
+                        alt="Workplace"
+                    />
+                </div>
+
+                <div class="card">
+                    <p class="date">1 June, 2017</p>
+                    <h3 class="title">Vacation!</h3>
+                    <p class="description">
+                        Being the savage's bowsman, that is, the person who
+                        pulled the only one bow-oar.
+                    </p>
+                    <img
+                        src="./images/note-image2.png"
+                        alt="Vacation"
+                    />
+                </div>
+
+                <div class="card">
+                    <p class="date">25 May, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <p class="description">
+                        Being the savage's bowsman, that is, the person who
+                        pulled the bow-oar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="date">20 May, 2017</p>
+                    <h3 class="title">New workplace</h3>
+                    <img src="./images/note-image3.png" alt="Workplace" />
+                </div>
+
+                <div class="card">
+                    <p class="date">10 May, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <ul>
+                        <li>Being the savage's bowsman</li>
+                        <li>The person who pulled the bow-oar</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <p class="date">23 June, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <p class="description">
+                        Being the savage's bowsman, that is, the person who
+                        pulled the only one bow-oar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="date">20 June, 2017</p>
+                    <h3 class="title"><b>Being the savage's bowsman</b></h3>
+                    <p class="description">
+                        That is, the person who pulled the only one bow-oar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="date">15 June, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <ul>
+                        <li>Being the bowsman</li>
+                        <li>The person who pulled the bow-oar</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <p class="date">10 June, 2017</p>
+                    <h3 class="title">New workplace</h3>
+                    <img src="./images/note-image1.png" alt="Workplace" />
+                </div>
+
+                <div class="card">
+                    <p class="date">1 June, 2017</p>
+                    <h3 class="title">Vacation!</h3>
+                    <p class="description">
+                        Being the savage's bowsman, that is, the person who
+                        pulled the only one bow-oar.
+                    </p>
+                    <img src="./images/note-image2.png" alt="Vacation" />
+                </div>
+
+                <div class="card">
+                    <p class="date">25 May, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <p class="description">
+                        Being the savage's bowsman, that is, the person who
+                        pulled the bow-oar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <p class="date">20 May, 2017</p>
+                    <h3 class="title">New workplace</h3>
+                    <img src="./images/note-image3.png" alt="Workplace" />
+                </div>
+
+                <div class="card">
+                    <p class="date">10 May, 2017</p>
+                    <h3 class="title">The monkey-rope</h3>
+                    <ul>
+                        <li>Being the savage's bowsman</li>
+                        <li>The person who pulled the bow-oar</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <script src="index.js"></script>
+    </body>
+</html>

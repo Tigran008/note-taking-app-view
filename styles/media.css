@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+    body, .hamburger-menu {
+        display: block;
+    }
+
+    aside, header .profile p, header .profile i, main .filters .add-note p {
+        display: none;
+    }
+    
+    header {
+        padding: 15px;
+    }
+}

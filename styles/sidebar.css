@@ -1,0 +1,132 @@
+@import url('colors.css');
+
+aside {
+    background-color: var(--primary-color);
+    grid-row: 1 / span 2;
+    font-size: 18px;
+    width: 100%;
+}
+
+aside ul li.active {
+    color: var(--primary-color);
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+}
+
+aside ul li.active::after {
+    content: "";
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    width: 40px;
+    height: 60px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+aside nav {
+    height: 35%;
+    margin: 40px 0px;
+    padding: 0px 30px;
+}
+
+aside nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    list-style: none;
+    color: var(--text-color);
+    margin: 0; 
+    padding: 0;
+}
+
+aside nav ul li {
+    font-size: 0.7em;
+}
+
+aside nav ul li i {
+    margin-right: 10px;
+}
+
+aside .logo {
+    height: 10%;
+    width: 100%;
+    height: 10%; 
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+aside .logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+aside .categories .category-color-circles {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+} 
+
+aside .categories  {
+    width: 100%;
+    height: 20%;
+    padding: 0px 30px;
+    margin-top: 25px;
+}
+
+aside .categories div {
+    display: flex;
+    align-items: center;
+    font-size: 0.6em;
+    color: var(--text-color);
+    gap: 15px;
+}
+
+aside .categories .category-projects {
+    background-color:gold ;
+    box-shadow: 0px 0px 3px gold;
+
+}
+
+aside .categories .category-business {
+    background-color:goldenrod ;
+    box-shadow: 0px 0px 3px goldenrod;
+
+}
+
+aside .categories .category-personal {
+    background-color:skyblue ;
+    box-shadow: 0px 0px 3px skyblue;
+}
+
+aside .footer  {
+    height: 15%;
+    font-size: 0.6em;
+    box-sizing: border-box;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 0px 30px;
+}
+
+aside .footer .social-links i {
+    margin-right: 10px;
+}
+
+aside hr {
+    width: 70%;
+    border: 1px solid var(--secondary-color);
+    opacity: 0.3;
+}
