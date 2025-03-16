@@ -1,6 +1,5 @@
 @import url('header.css');
 @import url('main.css');
-@import url('media.css');
 @import url('sidebar.css');
 
 body {
@@ -10,4 +9,18 @@ body {
     font-family: Arial, sans-serif;
     display: grid;
     grid-template: 10% 90% / 1fr 6fr
+}
+
+@media (max-width: 768px) {
+    body, .hamburger-menu {
+        display: block;
+    }
+
+    aside, header .profile p, header .profile i, main .filters .add-note p {
+        display: none;
+    }
+    
+    header {
+        padding: 15px;
+    }
 }
